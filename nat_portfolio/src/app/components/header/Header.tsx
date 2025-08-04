@@ -1,8 +1,5 @@
 import { ILink } from "@/app/@interfaces/ILink";
 import Link from "next/link";
-import { Anta } from "next/font/google";
-
-const anta = Anta({ weight: "400" });
 
 export default function Header() {
   const links: Array<ILink> = [
@@ -12,7 +9,7 @@ export default function Header() {
   ];
 
   return (
-    <header className={`w-full flex flex-row ${anta.className}`}>
+    <header className={`w-full flex flex-row `}>
       <h1 className=" text-5xl pl-8 flex-1">Nat's Portfolio</h1>
       <div>
         {links.map((link) => (

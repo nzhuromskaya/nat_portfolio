@@ -1,5 +1,6 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,22 +24,23 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-flow-row justify-items-center">
-            <h3>Frameworks</h3>
-            <p>
-              <span>React</span>
-              <span>.Net</span>
-            </p>
-          </div>
-          <div className="grid grid-flow-row justify-items-center">
-            <h3>Tools</h3>
-            <p>
-              <span>Github</span>
-              <span>Webstorm</span>
-              <span>Visual Studio</span>
-              <span>Visual Studio Code</span>
-              <span>Unity</span>
-            </p>
+          <div>
+            <div className="grid grid-flow-row justify-items-center">
+              <h3>Frameworks</h3>
+              <p>
+                <span>React, .Net, NextJS</span>
+              </p>
+            </div>
+            <div className="grid grid-flow-row justify-items-center">
+              <h3>Tools</h3>
+              <p>
+                <span>Github</span>
+                <span>Webstorm</span>
+                <span>Visual Studio</span>
+                <span>Visual Studio Code</span>
+                <span>Unity</span>
+              </p>
+            </div>
           </div>
         </main>
       </div>
